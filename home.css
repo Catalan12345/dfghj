@@ -1,0 +1,56 @@
+header {
+    background-color: #b90000;
+    h1 {
+        color: white;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.container {
+    text-align: center;
+}
+
+.botonDes {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.botonDes:hover {
+    background-color: #45a049;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    height: 20rem;
+    justify-content: center;
+}
+
+#imagen {
+    padding: 0.9rem;
+}
+
+footer {
+    height: 25rem;
+    background-color: blue;
+}
