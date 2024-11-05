@@ -6,11 +6,24 @@ header {
 }
 
 a {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 0.5rem;
     display: flex;
     flex-direction: row;
+}
+
+#quErre {
+    width: 500px;
+    height: 500px;
+}
+
+#numeroContacto {
+    color: black;
+}
+
+#numeroContacto:hover{
+    color: rgb(0, 89, 255);
 }
 
 a:hover {
